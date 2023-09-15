@@ -146,14 +146,7 @@ install_x-ui() {
   echo ""
 
   echo -e "${yellow}
- _  __                         _  ___                 _     _  __
-| |/ /                        | |/ / |               | |   | |/ /
-| ' / __ _ _   _ _ __   __ _  | ' /| |__   __ _ _ __ | |_  | ' /_   _  __ ___      __
-|  < / _\` | | | | '_ \ / _\` | |  < | '_ \ / _\` | '_ \| __| |  <| | | |/ _\` \ \ /\ / /
-| . \ (_| | |_| | | | | (_| | | . \| | | | (_| | | | | |_  | . \ |_| | (_| |\ V  V /
-|_|\_\__,_|\__,_|_| |_|\__, | |_|\_\_| |_|\__,_|_| |_|\__| |_|\_\__, |\__,_| \_/\_/  ${plain}(ɔ◔‿◔)ɔ ${red}♥${yellow}
-                        __/ |                                    __/ |
-                       |___/                                    |___/ ${green}https://t.me/kaungkhantx${plain}
+ TEST
 "
 
 }
@@ -163,5 +156,5 @@ if [[ -n $4 ]] && [[ $(($(date +%s) - $4)) -lt 120 ]] && [[ $(($(date +%s) - $4)
 install_base
 install_x-ui "$1" "$2" "$3"
 else
-  echo -e "${red}Token is invalid or expired. Contact the developer https://t.me/kaungkhantx for more information.${plain}"
+  echo -e "${red}Token is invalid or expired. Contact the developer for more information.${plain}"
 fi
